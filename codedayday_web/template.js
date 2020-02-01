@@ -1,5 +1,5 @@
 /**
- * pages模版快速生成脚本,执行命令 npm run tep `文件名`
+ * pages模版快速生成脚本,执行命令 node tempplate.js `文件名`
  */
 
 const fs = require('fs');
@@ -96,10 +96,10 @@ export const demo = (data) => {
 fs.mkdirSync(`./src/pages/${dirName}`); // mkdir $1
 process.chdir(`./src/pages/${dirName}`); // cd $1
 
-fs.writeFileSync('index.js', indexTep);
+fs.writeFileSync('index.jsx', indexTep);
 fs.writeFileSync('index.scss', scssTep);
-fs.writeFileSync('model.js', modelTep);
-fs.writeFileSync('service.js', serviceTep);
+fs.writeFileSync('model.jsx', modelTep);
+fs.writeFileSync('service.jsx', serviceTep);
 
 console.log(`模版${dirName}已创建,请手动增加models`);
 
