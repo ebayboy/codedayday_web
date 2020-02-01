@@ -2,7 +2,7 @@
   "miniprogramRoot": "./dist",
   "projectname": "codedayday_web",
   "description": "codedayday_web",
-  "appid": "touristappid",
+  "appid": "wxbe199dbf0f647245",
   "setting": {
     "urlCheck": true,
     "es6": false,
