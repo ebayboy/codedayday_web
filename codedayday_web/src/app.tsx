@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable import/first */
+/* eslint-disable react/sort-comp */
 import Taro, { Component, Config } from "@tarojs/taro";
 import Index from "./pages/index";
 import { Provider } from "@tarojs/redux";
