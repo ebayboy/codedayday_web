@@ -7,3 +7,5 @@ codedayday_web
 - 4. npm install nervjs
 - 5. npm install --save react-redux
 - 6. npm i redux --sav
+- 7. yarn add @tarojs/async-await 
+- 8. yarn add @tarojs/redux

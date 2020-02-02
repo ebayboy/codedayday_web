@@ -1,5 +1,5 @@
 import Taro, { Component, Config } from "@tarojs/taro";
-import { View, Text } from "@tarojs/components";
+import { View } from "@tarojs/components";
 
 import { AtButton } from 'taro-ui'
 
@@ -30,6 +30,7 @@ export default class Index extends Component {
   render() {
     return (
       <View className="index">
+        Hello CodeDayDay!
         <View className="index">
           <AtButton type="primary">按钮文案</AtButton>
         </View>
