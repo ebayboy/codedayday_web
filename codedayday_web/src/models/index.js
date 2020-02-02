@@ -1,15 +1,5 @@
-/*
-import common from './common'
-import info from './info'
-import doing from './doing'
-import bg from './bg'
-*/
+//import index from './index';// 生成的models文件
 
 export default [
-    /*
-    common,
-    info,
-    doing,
-    bg
-    */
-]
+//   index
+];
